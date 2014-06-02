@@ -1,0 +1,380 @@
+.hr {
+	border-top: 1px solid #e2e2e2;
+	margin: 5px;
+}
+
+/* Class selectors */
+.main {
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 2px solid #e2e2e2;
+	border-left: 1px solid #e2e2e2;
+	margin: 0;
+	padding: 0;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.main h2 {
+	margin: 0;
+	padding: 3px;
+	text-align: left;
+	background: #FFF url("images/bg-producthead.jpg") repeat-x right bottom;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	font: bold 14px "Arial", Helvetica, sans-serif; 
+	color: #000;
+}
+
+.main h2:hover {
+	background: #FFF url("images/bg-producthead-off.jpg") repeat-x right bottom;
+	cursor: pointer; cursor:hand;
+	text-indent: 3px;
+	color:#333333;
+}
+
+
+/* ID Selectors */
+#hymnals, #hymnhist, #songbooks {
+	/*border: 1px dashed #f65077;
+	margin: 0;
+	padding: 0;*/
+}
+
+#hymnals, #hymnhist, #songbooks p {
+	margin: 0;
+	padding: 0;
+}
+
+.pic {
+	margin: 3px 3px 6px 3px;
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+	background-color: #FFFFFF;
+	text-align:center;
+}
+
+.ordering {
+	margin: 3px;
+	padding: 5px;
+	border: 1px solid #e2e2e2;
+	background-color: #FFFFCC;
+	font: bold 12px "Arial", Helvetica, sans-serif;
+	color: #000; 
+	width: 100% auto;
+}
+
+.orderitem {
+	background: #FFFFCC;
+	margin: 2px;
+	padding: 2px;
+	width: 100% auto;
+}
+
+.number {
+	text-indent: 18px;
+	background: #FFFFCC url("images/icon_check.gif") no-repeat left middle;
+	
+}
+
+.bg_left {
+	background-image: url(images/bg_ds.gif);
+	background-repeat: repeat-y; 
+	width: 21px;
+}
+
+.bg_leftbottom {
+	background-image: url(images/bg_ds.gif);
+	background-repeat: repeat-y; 
+}
+
+.bg_right {
+	background-image: url(images/bg_right.gif);
+	background-repeat: repeat-y; 
+	width: 16px;
+}
+
+.bg_bottom {
+	background-image: url(images/bg_bottom.gif);
+	background-repeat: repeat-x; 
+	height: 10px;
+}
+
+.bg_bottom_white {
+	background-image: url(images/bg_bottom_white.gif);
+	background-repeat: repeat-x;
+	height: 21;
+	width: 725px;	
+}
+
+.bg_red {
+	background-image: url(images/bg_reddot.gif);
+	background-repeat: repeat-x;
+	width:318px;
+}
+
+.mission_text{
+	font-family: times, serif;
+	font-size: 20; 
+	text-decoration: none;
+	color: #666666;
+	word-spacing: 0;
+	valign: top;
+}
+
+.body_text{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+	font-style: normal; 
+	line-height: normal; 
+	font-weight: normal; 
+	font-variant: normal; 
+	letter-spacing: normal; 
+	text-align: left; 
+	word-spacing: normal; 
+	white-space: normal;
+}
+
+.headline{
+	font-family: times, serif;
+	font-size: 14; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #666666;
+	word-spacing: 0;
+	valign: top;
+}
+.footer{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: underline;
+	color: #666666;
+	word-spacing: 0;
+	valign: top;
+}
+.footer:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.heading_text{
+	font-family: times, serif;
+	font-size: 16; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.heading_info{
+	font-family: times, serif;
+	font-size: 13; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.popup{
+	font-family: arial, helvetica, sanserif;	font-size: 13; 
+	text-decoration: none;
+	color:  #666666;
+	word-spacing: 0;
+	valign: top;
+}
+
+.popup:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 13; 
+	text-decoration: underline;
+	color:#990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+
+.subtitle_text{
+	font-family: arial, helvetica, sanserif;
+	font-size: 9; 
+	text-decoration: none;
+	color: #000000;
+	word-spacing: 0;
+	valign: top;
+}
+.poem_text{
+	font-family: arial, helvetica, sanserif;
+	font-size: 10; 
+	font-weight: bold; 
+	text-decoration: none;
+	text-align: center;
+	color: #000000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.add{
+	font-family: arial, helvetica, sanserif;
+	font-size: 12; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.productlink{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: underline;
+	color: #000000;
+	word-spacing: 0;
+	valign: top;
+}
+.productlink:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: underline;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.price{
+	font-family: arial, helvetica, sanserif;
+	font-size: 16px;
+	color:#009900;
+	word-spacing: 0;
+	valign: top;
+	padding: 0 6px;
+}
+
+.contact{
+	font-family: arial, helvetica, sanserif;
+	font-size: 13px; 
+	color: #000000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.histlink{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: underline;
+	color: #99CC99;
+	word-spacing: 0;
+	valign: top;
+}
+
+.histlink:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+.homelink{
+	font-family: arial, helvetica, sanserif;
+	font-size: 13; 
+	text-decoration: underline;
+	color: #99CC99;
+	word-spacing: 0;
+	valign: top;
+}
+.homelink:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 13; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+.info{
+	font-family: arial, helvetica, sanserif;
+	font-size: 15;
+	font-weight: bold; 
+	color: #99CC99;
+	word-spacing: 0;
+	valign: top;
+}
+
+.quantity{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.desc_text{
+	font-family: arial, helvetica, sanserif;
+	font-size: 14px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+	background-color:#FFFFFF;
+	padding: 5px;
+}
+
+.subdesc{
+	font-family: arial, helvetica, sanserif;
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	word-spacing: 0;
+	valign: top;
+	background-color:#DDEEDC;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+
+.product_desc{
+	font-family: arial, helvetica, sanserif;
+	font-size: 11px; 
+	text-decoration: none;
+	color: #333;
+	line-height: 17px;
+	word-spacing: 0;
+	valign: top;
+	background-color:#FFFFFF;
+	padding: 0 5px;
+}
+
+.ordertd{
+	background-color:#FFFFFF;
+}
+
+.outlink{
+	font-family: arial, helvetica, sanserif;
+	font-size: 14; 
+	text-decoration: underline;
+	color: #99CC99;
+	word-spacing: 0;
+	valign: top;
+}
+.outlink:HOVER{
+	font-family: arial, helvetica, sanserif;
+	font-size: 14; 
+	text-decoration: none;
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}
+
+.fine{
+	font-family: arial, helvetica, sanserif;
+	font-size: 10; 
+	color: #990000;
+	word-spacing: 0;
+	valign: top;
+}

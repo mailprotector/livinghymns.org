@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Pop Up Image</title>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<script language="JavaScript" type="text/javascript">
+/***************************************************************************
+* Automatic Image Popup
+* Copyright 2002 by David Schontzler | www.stilleye.com
+* Free to use under GNU General Public License as long as this message
+*  remains intact.
+* Description:  Automate your image popup windows (centered and sized)
+* URI: http://www.stilleye.com/scripts/iPop
+***************************************************************************
+* Version: 1.0.1
+***************************************************************************/
+str = location.href
+if(str.split('?').length>1)
+{
+	img = str.split('?')[1]
+	if(img.split('&').length>1)
+	{
+		ttl = unescape(img.split('&')[1])
+		img = img.split('&')[0]
+		document.title = ttl
+	}
+	else ttl = ''
+	document.writeln('<a href="#" onclick="window.close()"><img src="'+img+'" border="0" alt="'+ttl+' \n(Click to close)"></a>')
+}
+else
+{
+	document.writeln('<div style="padding:2px;font:11px sans-serif">no image provided</div>')
+	document.title = 'no image provided'
+}
+</script>
+
+</body>
+</html>
